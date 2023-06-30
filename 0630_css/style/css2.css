@@ -1,0 +1,38 @@
+main {
+    background-color:rgba(0,0,0,0.8);
+    padding:50px;
+}
+main .box {
+    width:200px; height:200px;
+    font-size:4rem;
+    border:5px dotted #fff;
+    border-radius:50%;
+    text-align:center;
+    line-height:200px;/* line-height에 높이 값(height)과 같을 경우 요소가 수직 중앙으로 온다.*/
+}
+main .a {
+    clear:both;
+    /* float:right; */
+    /* padding(안쪽여백)추가 시 실제 크기에 변화를 주지 않는다. */
+    /* padding-right:50px; */
+    box-sizing:border-box;/* 박스 사이즈를 재설정 하는 값 */
+    /* width:150px; */
+    background-color:aqua;
+}
+main .b {
+    /* clear:both; */
+    float:right;
+    /* padding-top:30px; */
+    box-sizing:border-box; 
+    /* height:170; */
+    font-size:3rem;
+    background-color:indigo;
+}
+main .c {
+    clear:both;
+    /* float:right; */
+    /* padding:10px 20px; */
+    box-sizing:border-box;
+    /* width:160px; height:180px; */
+    background-color:yellow;
+}
