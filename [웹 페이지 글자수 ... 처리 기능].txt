@@ -1,0 +1,4 @@
+[웹 페이지 글자수 ... 처리 기능]
+white-space:nowrap;
+overflow:hidden;
+text-overflow:ellipsis;
