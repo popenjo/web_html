@@ -1,0 +1,49 @@
+header {background-color:aqua;}
+header h1 {background-color:teal;}
+header h1 a {}
+header h1 a img {}
+header nav {background-color:tomato;}
+header nav .gnb_menu {}
+header nav .gnb_menu li {}
+header nav .gnb_menu li a {}
+header nav .lnb_right {}
+header nav .lnb_right li {}
+header nav .lnb_right li a {}
+/* header */
+main {background-color:burlywood;}
+main .breadcrumbs_bg {background-color:#f1f1f1;}
+main .breadcrumbs_bg .breadcrumbs {}
+main .breadcrumbs_bg .breadcrumbs a {}
+main .breadcrumbs_bg .breadcrumbs em {}
+main .content1 {}
+main .content1 h1 {}
+main .content1 p {}
+/* 컨텐츠1 */
+main .c2_bg {background-color:#f1f1f1;}
+main .c2_bg .content2 {}
+main .c2_bg .content2 p {}
+/* 컨텐츠2 */
+main .c3 {background-color: #f1f1f1;}
+main .c3 h2 {}
+main .c3 h2 p {}
+/* 컨텐츠3 */
+main .c4_bg {background-color:#f1f1f1;}
+main .c4_bg .content4 {}
+main .c4_bg .content4 h2 {}
+main .c4_bg .content4 ul {}
+main .c4_bg .content4 ul li {}
+main .c4_bg .content4 ul li h3 {}
+main .c4_bg .content4 ul li p {}
+/* 컨텐츠4 */
+/* main */
+footer {background-color: lightblue;}
+footer .f_top {background-color:yellow;}
+footer .f_top .fnb {background-color:orange;}
+footer .f_top .fnb li {}
+footer .f_top .fnb li a {}
+footer .f_top .f_site {background-color:burlywood;}
+footer .f_top .f_site li {}
+footer .f_btm {background-color:greenyellow;}
+footer .f_btm address {}
+footer .f_btm p {}
+/* footer */
