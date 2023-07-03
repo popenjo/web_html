@@ -1,0 +1,171 @@
+header {
+    width:1200px; height:92px;
+    margin:0 auto;
+}
+header h1 {
+    width:60px; height:70px;
+    float:left;
+    margin:11px 0 0 20px;
+}
+header h1 a {}
+header h1 a img {
+    width:100%;
+}
+header nav {
+    margin:39px 0 0 234px;
+    float:left;
+}
+header nav .gnb_menu {}
+header nav .gnb_menu li {
+    float:left;
+}
+header nav .gnb_menu li a {
+    padding-right:40px;
+    font-size:1.2rem;
+}
+header nav .gnb_menu li:last-child a {padding-right:0;}/* li에 마지막 끝 a에 패딩-오른쪽:0; */
+/* 활성화 페이지 기준 active class 선택자 작성위치 */
+header nav .gnb_menu .active a {color:#36b4e5;}
+header .lnb_right {background-color: aliceblue;
+    float:right;
+    margin:39px 20px 0 0;
+}
+header .lnb_right li {
+    float: left;
+    margin-right:20px;
+}
+/* 모든 li에 반복적으로 들어간 maigin 또는 padding 값에서 마지막 여백값만 빼는 방법 */
+header .lnb_right li:last-child {margin-right:0;}
+header .lnb_right li a {
+    font-size:1.2rem;
+}
+header .lnb_right li span {
+    width:1px; height:13px;
+    background-color:#aaa;
+    display:block;/* span은 인라인 요소이기 때문에 block처리를 해줘야 이미지 상에서 보인다. */
+    margin-top:3px;
+}
+/* header */
+main {}
+main .breadcrumbs_bg {
+    background-color:#f1f1f1;
+    border:1px solid #aaa;
+    border-left:0; border-right:0;
+}
+main .breadcrumbs_bg .breadcrumbs {
+    width:1200px; height:58px;
+    margin:0 auto;
+    padding:22px 20px;
+    text-align:right;/* 정렬 대상의 부모에게 정렬대상이 모두 인라인이고 한 방향 수평 정렬일 경우 정렬대상의 부모요소한테 text-align을 사용한다. */
+}
+main .breadcrumbs_bg .breadcrumbs a {
+    
+}
+main .breadcrumbs_bg .breadcrumbs em {font-weight:700;}/* <- 글꼴 굵게 */
+main .content1 {
+    width:1200px;
+    padding:70px 0;
+    margin:0 auto; text-align:center;
+}
+main .content1 h1 {
+    font-size:2.074rem;
+    font-weight:500;
+    letter-spacing:-0.02;
+    margin-bottom:40px;
+}
+main .content1 p {
+    font-size:1.2rem;
+    letter-spacing:-0.02;
+}
+/* 컨텐츠1 */
+main .c2_bg {
+    background-color:#f1f1f1;
+    width:1440px; text-align:center;
+    margin:0 auto; padding:70px 0;
+}
+main .c2_bg .content2 {}
+main .c2_bg .content2 p {
+    font-size:1.2rem;
+    letter-spacing:-0.02; /* 자간 */
+    line-height:35px; /* 행간 */
+}
+/* 컨텐츠2 */
+main .c3 {
+    width:1200px; margin:0 auto;
+    text-align:center; padding:70px 0;
+
+}
+main .c3 h2 {
+    margin-bottom:50px;
+    font-size:2.074rem;
+    font-weight:500;
+    letter-spacing:-0.02em;
+    color:#36B4E5;
+}
+main .c3 h2+p {
+    font-size:1.728rem;
+    letter-spacing:-0.02em;
+    line-height:45px;
+}
+main .c3 p:nth-child(2)/* <-중요! */ {margin-bottom:50px;}
+/* 컨텐츠3 */
+main .c4_bg {
+    background-color:#f1f1f1;
+    width:1440px; height:1000px;
+    margin:0 auto; text-align:center;
+    padding:97.5px 97.5px;
+}
+main .c4_bg .content4 {}
+main .c4_bg .content4 h2 {padding-bottom:103px;}
+main .c4_bg .content4 ul {margin-bottom:109px; text-align:center;}
+main .c4_bg .content4 ul li {float:left;}
+main .c4_bg .content4 ul li h3 {}
+main .c4_bg .content4 ul li p {}
+/* 컨텐츠4 */
+/* main */
+footer {}
+footer .f_top {
+    width:1200px; height:60px;
+    margin:0 auto;
+}
+footer .f_top .fnb {
+    float:left;
+    font-size:1.2rem;
+    font-weight:500;
+    margin:23px 0 23px 20px;
+    letter-spacing:-0.02em;
+}
+footer .f_top .fnb li {
+    float:left;
+    margin-right:30px;
+}
+footer .f_top .fnb li:last-child {margin-right:0;}
+footer .f_top .fnb li a {}
+footer .f_top .f_site {
+    float:right; 
+}
+footer .f_top .f_site li {
+    margin-top:13px;
+    margin-right:20px;
+    float:left;
+    border:1px solid #aaa;
+}
+footer .f_top .f_site li:last-child {margin-right:0;}
+/* 마지막 여백을 제거 한다. */
+footer .f_top .f_site li a {
+    padding:10px 20px;
+    font-size:1.2rem;
+    letter-spacing:-0.02em;
+    display:block;
+}
+footer .f_btm {
+    width:1200px; 
+    margin:0 auto; padding:70px 0;
+}
+footer .f_btm address {
+    font-size:1.2rem;
+    padding-bottom:50px;
+    letter-spacing:-0.02em;
+}
+footer .f_btm p {font-size:1.2rem; letter-spacing:-0.02em;}
+/* footer */

@@ -1,0 +1,46 @@
+header {
+    background-color:aqua;
+    width:1200px; height:92px;
+    margin:0 auto;
+}
+header h1 {
+    width:60px; height:70px;
+    float:left;
+    margin:11px 0 0 20px;
+}
+header h1 a {}
+header h1 img {
+    width:100%;
+}
+header nav {
+    background-color:orange;
+    float:left;
+    margin:39px 234px;
+}
+header nav .gnb_menu {}
+header nav .gnb_menu li {
+    float:left;
+}
+header nav .gnb_menu li a {
+    margin-right:40px;
+    font-size:1.2rem;
+
+}
+header nav .gnb_menu .active a {
+    color:#36B4E5;
+}
+header .lnb_right {
+    background-color:yellow;
+    float:right;
+
+}
+header .lnb_right li {
+    float:left;
+    margin:39px 20px 0 0;
+}
+header .lnb_right li span {
+    width:13px;
+    display:block;
+}
+header .lnb_right li a {
+}
