@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link href="" rel="stylesheet">
+    <title>nth연습</title>
+    <style>
+        /* .test:nth-child(1) {background-color:gray;}
+        .test h1:nth-child(1) {background-color:yellow;}
+        .test dl:nth-child(2) {background-color:black;}
+        .test dl dt:nth-child(1) {background-color:green;}
+        .test dl dd:nth-child(2) {background-color:aqua;}
+        dl:nth-child(2) {background-color:pink;}
+        dl dt {background-color:skyblue;}
+        dl dd {background-color:lime;} */
+        .test {background-color:gray;}
+        .test h1 {background-color:yellow;}
+        .test dl:nth-child(2) {background-color:black;}
+        .test dl:nth-child(2) dt {background-color:green;}
+        .test dl:nth-child(2) dd {background-color:aqua;}
+        dl:nth-child(2) {background-color:pink;}
+        dl:nth-child(2) dt {background-color:skyblue;}
+        dl:nth-child(2) dd {background-color:lime;}
+    </style>
+</head>
+<body>
+    <section class="test">
+        <h1>제목</h1>
+        <dl>
+            <dt>정의형 제목1</dt>
+            <dd>정의형 제목1</dd>
+        </dl>
+    </section>
+    <dl>
+        <dt>정의형 제목2</dt>
+        <dd>정의형 제목2</dd>
+    </dl>
+</body>
+</html>
