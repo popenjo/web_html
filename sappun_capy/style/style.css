@@ -1,0 +1,137 @@
+/* all layout */
+header .title, header nav, main .banner, main .m_basic, footer {
+    width:1300px; margin:0 auto;
+} 
+/* 사이드 스크롤 바 */
+.scroll_bar {
+    width:30px; height:150px;
+    position:fixed; right:10px; bottom:10px;
+}
+.scroll_bar p {
+    background-color:#fff;
+    border:1px solid #aaa;
+}
+.scroll_bar p a {}
+.scroll_bar p a img {
+    width:100%;
+}
+/* 헤더 */
+header {}
+/* 타이틀 */
+header .title {
+    text-align:center; padding:9px;
+    background-color:#ccc;
+}
+header .title a {font-size:0.833rem; font-weight:600;}
+/* 로고 */
+header .gnb {}
+header .gnb h1 {margin-top:33px; text-align:center;}
+header .gnb h1 a {}
+header .gnb h1 a img {width:130px; height:19px;}
+/* 오른쪽 로그인 */
+header .gnb .g_menu {float:right;}
+header .gnb .g_menu li {
+    float:left; padding-right:15px;
+}
+header .gnb .g_menu li a {
+    font-size:0.833rem; letter-spacing:-0.02em;
+}
+header .gnb .g_menu .join {position:relative;}
+header .gnb .g_menu .join a {}
+header .gnb .g_menu .join .coupon {
+    position:absolute;display:block; margin-top:6px;
+    height:24px; text-align:center;
+    border:1px solid #ff7f50; border-radius:10px;
+}
+header .gnb .g_menu .coupon span {font-size:0.833rem; font-weight:300;}
+/* 아이콘 */
+header .gnb .g_icon {float:right; margin-right:62px;}
+header .gnb .g_icon a {}
+header .gnb .g_icon a img {
+    padding-right:25px;
+}
+header nav {
+    background-color:aqua;
+    height:50px; margin-top:77px;
+}
+header nav ul {}
+header nav ul li {
+    float:left; padding-right:25px; 
+}
+header nav ul li a {
+    text-align:center;
+}
+/* 메인 */
+main {}
+main .banner {
+    margin-top:23px;
+}
+main .banner a {}
+main .banner a img {
+    width:100%; height:468px;
+}
+/* 당일/포토/오프라인 */
+main .m_img {
+    width:1300px; height:350px;
+    margin:0 auto; text-align:center;
+    margin-top:132px;
+}
+main .m_img a {}
+main .m_img a img {width:416px; height:360px;}
+/* 2번째 */
+main h2 {
+    font-weight:600;
+    margin-top:92px;
+    text-align:center;
+}
+main .m_basic {
+    width:420px;
+    float:left;
+}
+main .m_basic li {
+}
+main .m_basic li a {}
+main .m_basic li a img {}
+main .m_basic li dl {}
+main .m_basic li dl dt {
+    font-weight:300; margin-top:20px;
+}
+main .m_basic li dl dd {
+    margin-top:8px; padding-bottom:35px;
+}
+main .m_basic li dl dd em {
+    font-weight:600;
+}
+main .m_basic li p {
+    font-weight:400; font-size:0.833rem;
+    letter-spacing:-0.02em; margin-bottom:8px;
+}
+main .m_basic li .b_btm {}
+main .m_basic li .b_btm .best {
+    width:34px; height:21px; text-align:center; 
+    color:#fff; background-color:#ffe4c4;
+    letter-spacing:-0.02em;
+}
+main .m_basic li .b_btm .Production {
+    color:#fff; background-color:#000080;
+    letter-spacing:-0.02em;
+}
+main .m_basic li .b_btm p span {
+    color:#ff7f50; float:right; 
+    font-size:0.833rem; font-weight:300;
+}
+/* footer */
+.made {}
+.made img {
+    width:100%;
+}
+.made h3 {
+    text-align:center;
+}
+.made a {text-align:center; display:block;}
+footer {margin:0 527px 70px 70px;}
+footer .top {
+    
+}
+footer .top a {padding-right:45px;}
+footer address {}
