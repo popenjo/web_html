@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Emmet</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <style>
+        html,body {
+            background:aqua url(./images/seoul_img/news_img08.jpg) no-repeat fixed center bottom;
+            background-size:cover;/* 사용자의 화면 크기에 따라 사이즈가 정해진다.(원하는 크기값이 있으면 ex.500px 입력) */
+            height:200%;
+        }
+        #bg {
+            background-color:rgba(255,255,255,0.8);
+            position: relative;
+        }
+        #bg p {
+            background:yellow url(./images/seoul_img/news_img02.jpg) no-repeat;
+            width:400px; height:200px;
+            border:5px solid #000;
+        }
+        #bg p:nth-child(2) {
+            border-color:red;
+            left:100px; position:relative;
+        }
+        #bg p:nth-child(3) {
+            background-repeat:repeat-x;
+            right:0; bottom:0; position:absolute;
+        }/* background 속성명이 겹치지 않게 repeat를 써서 구분한다. */
+    </style>
+</head>
+<body>
+    <div id="bg">
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+    <h1>Vs code Emmet</h1>
+    <p><em>부모>자식</em></p>
+    <p><span></span><span></span></p>
+    <!-- 동일 관계(형제)의 요소를 2개 이상 제작하고 싶을 땐 곱하기를 붙여서 Emmet기능을 실행한다. -->
+
+    <ul> <!-- ul*4>li>a --> <!-- 부모*4>자식>자식 -->
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+    </ul>   
+    <div> <!-- div>p*5 -->
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+    <header>  <!-- header>h1+nav+p -->
+        <h1></h1>
+        <nav></nav>
+        <p></p>
+    </header>
+    <div class="test"> <!-- div.태그요소>p>em -->
+        <p><em></em></p>
+    </div>
+    <div id="box"> <!-- div#box>section.contents>h1+p -->
+        <section class="contents">
+            <h1></h1>
+            <p></p>
+        </section>
+    </div>
+    <img src="./images/seoul_img/banner_01.jpg" alt="">
+    <video src="#"></video>
+    <form action="#"></form>
+    <form action="#" method="post"></form>
+    <input type="text"> <!-- input:text -->
+    <button></button>
+    <button type="submit"></button>
+    <label for=""><input type="checkbox" name="" id=""></label>
+    <table> <!-- table>thead>tr>th*2 -->
+        <thead>
+            <tr>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody> <!-- tbody>tr>td*2 -->
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- div.right>form#langFrm+div.weather -->
+    <div class="right">
+        <form action="" id="langFrm">
+            <fieldset>
+                <select name="" id="">
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+            </fieldset>
+        </form>
+        <div class="weather">
+            <p class="current_weather">27.5</p><!-- p.current_weather+p.dust -->
+            <p class="dust">미세먼지</p>
+        </div>
+    </div>
+</body>
+</html>
