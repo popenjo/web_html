@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>gradient</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <style>
+        div {height:300px;}
+        .bg1 {
+            background:linear-gradient(90deg, pink,skyblue,magenta)
+            /* background:radial-gradient(pink,skyblue,magenta) */
+        }
+        .bg2 {
+            background: linear-gradient(90deg, rgba(225,255,114,1) 0%, rgba(145,37,182,1) 53%, rgba(117,0,255,1) 100%);
+        }
+        .bg2::placeholder {color:blue;}
+        .bg3 {
+            background:url(https://picsum.photos/id/20/1920)
+        }
+        .bg3 .gra3 {
+            border:2px solid #000;
+            boeder-color: linear-gradient(90deg, rgba(47,130,208,1) 0%, rgba(227,139,229,1) 22%, rgba(248,255,106,1) 47%, rgba(255,255,255,0) 100%);
+        }
+        .bg4 {
+            background:url(https://picsum.photos/id/20/1920);
+        }
+        .bg4 .gra {
+        background: linear-gradient(90deg, rgba(47,130,208,1) 0%, rgba(255,255,255,0) 100%);
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- 포토샵, 일러스트레이터 = graident = 정적인 색상-->
+    <!-- CSS = graident = 동적인 색상 (애니메이션)-->
+    <!-- graident animation CSS -->
+    <div class="bg1"></div>
+    <div class="bg2">
+        <input type="text" id="color" placeholder="">
+    </div>
+    <div class="bg3">
+        <div class="gra3"></div>
+    </div>
+    <div class="bg4">
+        <div class="gra">
+            <h1>제목</h1>
+        </div>
+    </div>
+</body>
+</html>

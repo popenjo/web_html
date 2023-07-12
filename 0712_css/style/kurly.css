@@ -1,0 +1,94 @@
+/* rgb(95 3 128) */
+/* 1050px */
+/* all layout */
+.top_bnr_bg .top,
+header {
+    background:yellow;
+    margin:0 auto; width:1050px;
+}
+/* header-sprite 공통선택자 */
+header .middle .logo h1,
+header .middle #search fieldset #search_btm,
+header .middle .lnb a,
+header .menu_btm .all_nav .menu {
+    background:pink url(../images/kurly_img/icon_set.png) no-repeat;
+    width:36px; height:36px;
+    display:inline-block; text-indent:-9999px;
+}
+/* header*/
+.top_bnr_bg {
+    background:rgb(95 3 128);
+    display:flex;
+    flex-flow:row nowrap;
+    align-items:center;
+    justify-content:center;
+}
+.top_bnr_bg .top {
+    height:42px;
+    display:flex; flex-flow:no wrap;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+}
+.top_bnr_bg .top .adver {}
+.top_bnr_bg .top .adver em {}
+.top_bnr_bg .top .close {
+    position:absolute; right:0; /* 부모의 오른쪽 정렬 */
+}
+.top_bnr_bg .top .close .fa-xmark {}
+header {}
+header .user_lnb {background-color: bisque;
+    height:35px;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:flex-end;
+}
+header .user_lnb a {}
+header .middle {
+    height:63px;
+}
+header .middle .logo {background-color: aqua;}
+header .middle .logo h1 {background-position:0 -158px;}
+header .middle .logo .market {}
+header .middle .logo .beauty {}
+header .middle #search {
+    border:1px solid rgb(95 3 128);
+    border-radius:5px; width:350px;
+}
+header .middle #search fieldset {
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+}
+header .middle #search fieldset #search_txt {}
+header .middle #search fieldset #search_btm {background-position:0 -122px;}
+header .middle .lnb {background-color: violet;
+    height:56px;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:flex-end;
+}
+header .middle .lnb .map {background-position:0 -86px;}
+header .middle .lnb .like {background-position:0 -50px;}
+header .middle .lnb .cart {background-position:0 -14px;}
+header .menu_btm {background-color: darkkhaki;}
+header .menu_btm .all_nav {}
+header .menu_btm .all_nav .menu {
+    width:16px; height:14px;
+    background-position:0 0
+}
+header .menu_btm .all_nav > span {}
+header .menu_btm nav {
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:center;
+}
+header .menu_btm nav a {}
+header .menu_btm .delivery_info {
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: flex-end;
+}
+header .menu_btm .delivery_info em {}
+header .menu_btm .delivery_info em .fa-circle {}
+header .menu_btm .delivery_info span {}
