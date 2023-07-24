@@ -1,0 +1,73 @@
+box-shadow-드랍쉐도우
+background-attachment: fixed; -화면 고정-
+scrol,
+
+background:url(), url(), url(); 배경 겹쳐넣기
+vh
+( , ) 콤마로 구분시 개별로 들어간다.
+
+background:
+속성, 1
+속성, 2
+속성; 3
+
+transition (트랜지션)
+속성을 움직이게 할지, 언제 시작할지, 얼마나 지속
+0.1s~(n)s 사이 값 
+
+transform(폼) 속성은 요소에 회전, 크기, 기울기, 이동
+transform-origin:right bottom
+origin-고정축 방향값-left,right 위치값- top,bottom
+
+rotate:각도 (값deg)
+
+transform:translate (px)<- 위치
+(x, y) 축
+
+/* 좌우반전 */
+transform:scaleX(-1);
+
+--------------------------------------------------------------
+animation 화면 상 시작하자마자 반응
+
+x축 만큼 이동
+@keyframes x500 {
+            0% {transform:translateX(0)}
+            100% {transform:translateX(500px)}
+
+/* y축으로 200->0만큼 이동하는 애니메이션 */
+        @keyframes y0 {
+            0% {transform:translateY(200px);}
+            100% {transform:translateY(0);}
+        }
+
+        /* 50도 -> 150도로 회전하는 애니메이션 */
+        @keyframes rotate150 {
+            0% {transform:rotate(50deg);}
+            100% {transform:rotate(150deg);}
+        }
+
+        /* 배경색 흰색 -> 노랑으로 변경되는 애니메이션 */
+        @keyframes bg_yellow {
+            0% {background:#fff;}
+            100% {background:yellow;}
+        }
+
+        /* 글자크기 1rem->3rem 변경되는 애니메이션 */
+        @keyframes fs_3 {
+            0% {font-size:1rem;}
+            100% {font-size:3rem;}
+        }
+
+        /* 배경색 노랑>빨강, 글자색 검정>흰색 변경 애니메이션 */
+        @keyframes bgr_fcw {
+            0% {background:yellow; color:black;}
+            100% {background:red; color:white;}
+        } 
+
+        /* 배경색 노랑>파랑>빨강 애니메이션 */
+        @keyframes ybr {
+            0% {background:yellow;}
+            50% {background:blue;}
+            100% {background:red;}
+        }
